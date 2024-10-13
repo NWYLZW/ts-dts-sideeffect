@@ -1,8 +1,14 @@
 {
 	"name": "package-a",
 	"exports": {
-		"source": "./src/index.ts",
-		"default": "./dist/index.js"
+		".": {
+			"source": "./src/index.ts",
+			"default": "./dist/index.js"
+		},
+		"./namespace": {
+			"source": "./src/namespace.ts",
+			"default": "./dist/namespace.js"
+		}
 	},
 	"scripts": {
 		"build": "tsc --project ./tsconfig.src.json"
