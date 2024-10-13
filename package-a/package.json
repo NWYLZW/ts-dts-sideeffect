@@ -1,0 +1,16 @@
+{
+	"name": "package-a",
+	"exports": {
+		"source": "./src/index.ts",
+		"default": "./dist/index.js"
+	},
+	"scripts": {
+		"build": "tsc --outDir dist --declaration --emitDeclarationOnly --project ./tsconfig.src.json"
+	},
+	"dependencies": {
+		"typescript": "^5.6.3"
+	},
+	"devDependencies": {
+		"package-a": "file:."
+	}
+}
