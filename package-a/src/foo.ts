@@ -5,4 +5,4 @@ declare module 'package-a' {
   export type B = 1
 }
 
-export declare const a: { a: 'a' }
+export declare const foo: { a: 'a' }

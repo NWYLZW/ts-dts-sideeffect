@@ -1,4 +1,4 @@
-import type { A, B } from 'package-a'
+import type { A, B, C } from 'package-a'
 
 export const a: A = {
   a: 'b'
