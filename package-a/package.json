@@ -8,6 +8,16 @@
 		"./namespace": {
 			"source": "./src/namespace.ts",
 			"default": "./dist/namespace.js"
+		},
+		"./proxy-internal": {
+			"source": "./src/proxy-internal.ts",
+			"default": "./dist/proxy-internal.js"
+		}
+	},
+	"imports": {
+		"#internal": {
+			"source": "./src/internal/index.ts",
+			"default": "./dist/internal/index.js"
 		}
 	},
 	"scripts": {
