@@ -4,4 +4,4 @@ declare module 'package-a/namespace' {
   }
   export type Foo = 1
 }
-export {}
+export const foo = 1
